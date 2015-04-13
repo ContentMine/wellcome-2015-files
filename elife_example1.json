@@ -1,0 +1,21 @@
+{
+  "url": "elifesciences\\.org",
+  "elements": {
+    "publisher": {
+      "selector": "//meta[@name='citation_publisher']",
+      "attribute": "content"
+    },
+    "journal": {
+      "selector": "//meta[@name='citation_journal_title']",
+      "attribute": "content"
+    },
+    "title": {
+      "selector": "//meta[@name='citation_title']",
+      "attribute": "content"
+    },
+    "authors": {
+      "selector": "//meta[@name='citation_author']",
+      "attribute": "content"
+    }
+  }
+}
